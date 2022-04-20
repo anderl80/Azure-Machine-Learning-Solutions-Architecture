@@ -18,3 +18,4 @@ azure-cognitiveservices-language-spellcheck
 scikit-learn
 pandas
 numpy
+pillow
