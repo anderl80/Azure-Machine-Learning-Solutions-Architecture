@@ -1,8 +1,6 @@
-python=3.9
 ipykernel
 pylint
 pytest
-pylance
 azureml-sdk
 azure-cognitiveservices-vision-computervision
 azure-cognitiveservices-vision-contentmoderator
