@@ -1,6 +1,7 @@
 ipykernel
 pylint
 pytest
+python-dotenv
 azureml-sdk
 azure-cognitiveservices-vision-computervision
 azure-cognitiveservices-vision-contentmoderator
