@@ -1,5 +1,8 @@
 ipykernel
 pylint
+pycodestyle
+pycodestyle_magic
+flake8
 pytest
 python-dotenv
 azureml-sdk
