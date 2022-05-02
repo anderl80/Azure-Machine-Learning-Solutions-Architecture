@@ -9,7 +9,7 @@ azureml-sdk
 azure-cognitiveservices-vision-computervision
 azure-cognitiveservices-vision-contentmoderator
 azure-cognitiveservices-vision-customvision
-cognitive-face
+azure-cognitiveservices-vision-face
 azure-cognitiveservices-search-websearch
 azure-cognitiveservices-search-imagesearch
 azure-cognitiveservices-search-entitysearch
