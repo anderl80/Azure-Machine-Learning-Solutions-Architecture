@@ -16,6 +16,7 @@ azure-cognitiveservices-search-entitysearch
 azure-cognitiveservices-search-customsearch
 azure-cognitiveservices-search-videosearch
 azure-cognitiveservices-search-newssearch
+azure-cognitiveservices-speech
 azure-cognitiveservices-language-textanalytics
 azure-cognitiveservices-language-luis
 azure-cognitiveservices-language-spellcheck
