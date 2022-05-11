@@ -1,9 +1,10 @@
-export SERVICENAME=computervision
+export SERVICENAME=ComputerVision
 export REGION=westeurope
 export RESOURCEGROUP=rg-aml-book-cogsrv
+export SKU=F0
 
 az group create --name $RESOURCEGROUP --location $REGION
-az cognitiveservices account create --name $SERVICENAME --resource-group $RESOURCEGROUP --kind ComputerVision --sku F0 --location $REGION --yes
+az cognitiveservices account create --name $SERVICENAME --resource-group $RESOURCEGROUP --kind $SERVICENAME --sku $SKU --location $REGION --yes
 
 export SUBSCRIPTION_ID=$(az account show --query id -o tsv)
 export ACCOUNT_REGION=$(az cognitiveservices account show --resource-group $RESOURCEGROUP --name $SERVICENAME --query location --output tsv)
