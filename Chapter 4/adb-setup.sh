@@ -27,7 +27,7 @@ https://$WORKSPACE_URL/api/2.0/token/create \
 
 databricks clusters create --json-file adb-cluster-standard.json
 
-databricks fs cp ML\ Quickstart_\ Model\ Training.py dbfs:/.
+databricks fs cp src/ML\ Quickstart_\ Model\ Training.py dbfs:/.
 
 # https://menziess.github.io/howto/run/databricks-notebooks-from-devops/
 
